@@ -122,9 +122,9 @@ services:
     ports:
       - "2222:22"  # SSH
       - "8443:8443" # Grommunio Admin
-      - "443:443" # Grommunio Web
+      - "7443:443" # Grommunio Web
       - "993:993" # Grommunio IMAP
-      - "80:80" # Letsencrypt challenges mainly
+      - "780:80" # Letsencrypt challenges mainly
     tty: true
     stdin_open: true
     networks:
